@@ -1,0 +1,185 @@
+body{
+	background-color:yellow;
+	margin:0px;
+	padding: 0px;
+}
+
+#project h1{
+	
+	font-size:33px;
+	color:red;
+	margin-left:430px;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+ul
+{
+	margin: 0px;
+	padding: 0px;
+}
+.my_menu{
+	position: absolute;
+	width: 100%;
+	height: auto;
+	background-color:black;
+}
+.menu li{
+
+	list-style: none;
+	width:157px;
+	height: 50px;
+	background-color:dodgerblue;
+	margin-left: 5px;
+	text-align: center;
+	line-height: 50px;
+	float:left;
+}
+
+.menu li:hover{
+	background-color: black;
+}
+.menu li a:hover{
+	color:aqua;
+}
+
+.menu li a{
+	color:white;
+	display: block;
+	text-decoration: none;
+}
+.logo
+{
+	width: 70px;
+	height: 50px;
+	background-color: black;
+}
+.logo_li:hover{
+	background-color: #2196f3 !important;
+}
+.logo_li a{
+	font-size: 20px;
+	background-color:green;
+}
+.logo_li:hover{
+	color: white !important;
+}
+.menu ul li{
+	margin:0px;
+}
+.menu ul{
+	display: none;
+}
+.menu li:hover ul{
+	display: block;
+}
+/* banner */	
+#banner
+{
+	width:100%;
+}
+#banner img{
+	width:100%;
+}
+
+/* why choose us*/
+#why_choose
+{
+		width:100%;
+		text-align:center;
+}
+#why_choose h1{
+	margin:0 auto;
+	width:130px;
+	font-size:30px;
+	color:red;
+	border-bottom:3px solid red;
+	border-bottom-width 3px;
+}
+.div_section1{
+	width:20%;
+	height:300px;
+	margin:20px;
+	margin-bottom:10px;
+
+	float:left;
+	
+}
+.icon{
+	width:75px;
+	height:75px;
+	border:1px solid gray;
+	margin:20px auto;
+	line-height=120px;
+	font-size:50px;
+	background-color:darkred;
+	color:white;
+	border-radius:100px;
+	transition-duration:0.3s;
+}
+.icon:hover{
+	font-size:40px;
+}
+/*section2*/
+.section2{
+	display: inline-block;
+	width:100%;
+	text-align:center;
+}
+.section2 h1{
+	margin:0 auto;
+	width:400px;
+	font-size:30px;
+	color:red;
+	border-bottom:3px solid red;
+}
+.div_section2{
+	width: 30%;
+	height: 300px;
+	margin:20px;
+	float: left;
+}
+.div_section2 img{
+	width: 100%;
+	
+}
+.section3{
+
+	width:100%;
+	text-align:center;
+}
+.section3 h1{
+	margin:0 auto;
+	width:200px;
+	font-size:20px;
+	color:black;
+	border-bottom:5px solid green;
+	
+}
+.div_section3{
+	width: 30%;
+	height: 300px;
+	margin:20px;
+	float: left;
+}
+.div_section3 img{
+	width: 30%;
+	
+}
+/* footer*/
+.footer
+{
+	width: 100%;
+	height: 200px;
+	
+}
+.footer_div{
+	width:20%;
+	height:auto;
+	margin:30px;
+	float:left;
+}
+.footer_div h1{
+	text-align: center;
+	border-bottom:5px solid red;
+}
+

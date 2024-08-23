@@ -1,0 +1,15 @@
+h1{
+	margin-top: 250px;
+	margin-left: 445px;
+	font-size: 80px;
+	
+	color:orangered;
+}
+body{
+
+	margin:0;
+	padding:0;
+	font-family: montserrat;
+	background:url(loggedimg.jpg);
+	background-size:cover;
+}
